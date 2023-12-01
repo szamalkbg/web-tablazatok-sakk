@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th,td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid darkgray;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: lightgray;
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: lightgray;
+}
+th {
+    width: 20px;
+    height: 20px;
+    background-color: dimgrey;
+    color: beige;
+    border: 1px solid dimgrey;
+}
